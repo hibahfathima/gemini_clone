@@ -51,7 +51,7 @@ setQuestionArray(prev=>[...prev,question])
     return (
         <div className="main">
             <div className="nav">
-                <p>Gemiai</p>
+                <p>Gemini</p>
                 <img src={assets.user_icon} alt="" />
             </div>
 
@@ -78,8 +78,8 @@ setQuestionArray(prev=>[...prev,question])
                             value={question}
                         />
                         <div>
-                            <img src={assets.gallery_icon} alt="" />
-                            <img src={assets.mic_icon} alt="" />
+                           
+                           
                             <img src={assets.send_icon} alt="" onClick={askQuestion} />
                         </div>
                     </div>
